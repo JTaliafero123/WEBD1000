@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--Setting the language in m webpage-->
+<html lang="en-CA">
+<head>
+<!--Linking my logo and my stylesheet-->
+<link rel="icon" href="SMALLLOGO.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<!--Setting the webpage title as my name-->
+<title>
+Jonasia Taliafero
+</title>
+<!--Setting viewport for accesibility-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<!--Header of my page-->
+<header>
+    <h1>Forms.</h1>
+</header>
+<body>
+<!--A section of my page-->
+<section>
+    <!--Basic form for my-->
+    <form action="mailto:W0468717@campus.nscc.ca" method="post" enctype="text/plain"> 
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname" required>
+    <br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"  required>
+    <br><br>
+    <label for="text">What city do you live in?:</label>
+    <input type="text" id="text" name="city" pattern="[A-Za-z]{2}" required>
+    <br><br>
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday" required>
+    <br><br>
+    <label for="favcolor">Select your favorite color:</label>
+    <input type="color" id="favcolor" name="favcolor">
+    <br><br>
+    <label for="phone">Enter a phone number:</label>
+    <input type="tel" id="phone" name="phone" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+    <small>Format:123-456-7890</small><br><br>
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$">
+    <br><br>
+    <input type="submit" value="Submit" action="alert('Thanks for Submitting.')"><input type="reset">
+</form>
+</section>
+</body>
+</html>

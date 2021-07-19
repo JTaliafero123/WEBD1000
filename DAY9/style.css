@@ -1,0 +1,65 @@
+
+/*This is the CSS for my day 9 webpage*/
+#table2,#table1,td,tr,th {
+    border-collapse: collapse;
+    border: 2px solid black;
+    font-family:'Courier New', Courier, monospace;
+    }
+    #table1 {
+        width: 50%;
+        align-items: center;
+        box-shadow: 2px 2px 2px #FF8093;
+        margin:auto;
+    }
+    #headingone { 
+     
+        background-color:lightpink;
+        font-size:32px;
+        padding: 50px;
+        margin-bottom: 50px;
+        box-shadow: 2px 2px 2px #FF8093;
+        text-align: center;
+        text-shadow: 2px 2px 2px #FF8093;
+    }
+    #caption1 {
+        text-shadow: 2px 2px 2px #FF8093;
+    
+    }
+    img.table1 {
+        box-shadow: 2px 2px 2px #FF8093;
+        padding-left: 5px;
+    }
+    #table2 {
+        width: 50%;
+        align-items: center;
+        box-shadow: 2px 2px 2px #FF8093;
+        margin:auto;
+    }
+    #caption2 {
+        text-shadow: 2px 2px 2px lightpink;
+    
+    }
+    img.table2 {
+        box-shadow: 2px 2px 2px lightpink;
+        padding-left: 5px;
+    }
+    /*This is the CSS for my current Webpage*/
+* {
+    box-sizing: border-box;
+  }
+  form {
+      border: 2px solid peru;
+      text-align: center;
+      background-color: burlywood;
+margin-left: auto;
+margin-left: auto;
+text-shadow:2px 2px 2px peru;
+
+  }
+  header {
+    border: 2px solid peru;
+background-color: burlywood;
+text-align: center;
+text-shadow:2px 2px 2px peru;
+margin-bottom: 50px;
+}

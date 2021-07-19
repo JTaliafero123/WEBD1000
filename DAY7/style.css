@@ -1,0 +1,44 @@
+#table2,#table1,td,tr,th {
+border-collapse: collapse;
+border: 2px solid black;
+font-family:'Courier New', Courier, monospace;
+}
+#table1 {
+    width: 50%;
+    align-items: center;
+    background-color:mediumseagreen;
+    box-shadow: 2px 2px 2px Maroon;
+    margin:auto;
+}
+#headingone { 
+ 
+    background-color:mediumseagreen;
+    font-size:32px;
+    padding: 50px;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 2px Maroon;
+    text-align: center;
+    text-shadow: 2px 2px 2px Maroon;
+}
+#caption1 {
+    text-shadow: 2px 2px 2px Maroon;
+
+}
+img.table1 {
+    box-shadow: 2px 2px 2px Maroon;
+    padding-left: 5px;
+}
+#table2 {
+    width: 50%;
+    align-items: center;
+    box-shadow: 2px 2px 2px maroon;
+    margin:auto;
+}
+#caption2 {
+    text-shadow: 2px 2px 2px mediumseagreen;
+
+}
+img.table2 {
+    box-shadow: 2px 2px 2px mediumseagreen;
+    padding-left: 5px;
+}
